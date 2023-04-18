@@ -1,0 +1,14 @@
+SetCode - from input
+Num - from input
+ScryfallURL - determine from input
+Card Name - //span[@class='card-text-card-name']
+Set, Rarity - //meta[@name='twitter:data1']/@content
+Card Type - //p[@class='card-text-type-line']
+Description - //div[@class='card-text-oracle']
+Power - //div[@class='card-text-stats']
+Ave Price (AUD) - //meta[@name='twitter:data2']/@content
+Mana Cost - //span[@class='card-text-mana-cost']
+CMC - Calc from Mana Cost
+
+May be able to get data based on //meta/@content and pull from there
+
